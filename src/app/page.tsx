@@ -1,8 +1,7 @@
-import React from "react";
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Image from "next/image";
 import { GoGear } from "react-icons/go";
-import { FaArrowTrendUp, FaCheck } from "react-icons/fa6";
+import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
 import { IoSendSharp } from "react-icons/io5";
 
