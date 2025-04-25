@@ -292,27 +292,28 @@ const Dashboard = () => {
 
             {/* Single Question Card */}
             <div className="mb-6">
-              <div className="flex items-start justify-between">
-                <div className="flex gap-3">
-                  <Image
-                    src="/images/Avataronline.png"
-                    alt="avatar"
-                    className="w-10 h-10 rounded-full"
-                  />
-                  <div>
-                    <h4 className="font-semibold text-sm">
-                      Phoenix Baker{" "}
-                      <span className="text-gray-500 text-xs">
-                        {" "}
-                        <br /> @phoenix
-                      </span>
-                    </h4>
-                    <p className="text-sm text-gray-700 mt-2">
-                      What are the requirements for opening a new store?
-                    </p>
+              <div className="mb-6">
+                <div className="flex items-start justify-between">
+                  <div className="flex gap-3">
+                    <Image
+                      src="/images/Avataronline.png"
+                      alt="avatar"
+                      height={40}
+                      width={40}
+                      className="rounded-full"
+                    />
+                    <div>
+                      <h4 className="font-semibold text-sm">
+                        Phoenix Bakers{" "}
+                        <div className="text-gray-500 text-xs"> @phoenix</div>
+                      </h4>
+                      <p className="text-sm text-gray-600 mt-1">
+                        What are the requirements for opening a new store?
+                      </p>
+                    </div>
                   </div>
+                  <span className="text-xs text-gray-400">4hr ago</span>
                 </div>
-                <span className="text-xs text-gray-400">5min ago</span>
               </div>
               <hr className="mt-4" />
             </div>
@@ -324,7 +325,9 @@ const Dashboard = () => {
                   <Image
                     src="/images/Avataronline2.png"
                     alt="avatar"
-                    className="w-10 h-10 rounded-full"
+                    height={40}
+                    width={40}
+                    className="rounded-full"
                   />
                   <div>
                     <h4 className="font-semibold text-sm">
@@ -344,7 +347,13 @@ const Dashboard = () => {
           {/* Right Side - Chat Area */}
 
           <div className="w-full md:w-2/3 flex flex-col items-center justify-center px-8 py-12 text-center">
-            <Image src="/images/Logo.png" alt="logo" className="w-12 mb-6" />
+            <Image
+              src="/images/Logo.png"
+              alt="logo"
+              className=""
+              height={35}
+              width={64}
+            />
             <h1 className="text-3xl font-semibold mb-7">
               Welcome to the AI Chat Assistant
             </h1>
