@@ -4,6 +4,7 @@ import { GoGear } from "react-icons/go";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
 import { IoSendSharp } from "react-icons/io5";
+import "animate.css";
 
 const Dashboard = () => {
   return (
@@ -74,7 +75,7 @@ const Dashboard = () => {
         <main className="flex justify-center bg-white border-b-1 px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-full ">
             {/* Box 1: Account Progress */}
-            <div className="shadow-md bg-white border border-gray-200 p-6 rounded-lg">
+            <div className="animate__animated animate__bounceInLeft shadow-md bg-white border border-gray-200 p-6 rounded-lg">
               <h1 className="font-semibold text-lg text-center mb-6">
                 Account Progress
               </h1>
@@ -122,7 +123,7 @@ const Dashboard = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 col-span-2">
               {/* Card 1: Total Franchisees Onboard */}
-              <div className="bg-white shadow-md border border-gray-200 p-8 rounded-lg">
+              <div className="animate__animated animate__bounceInDown bg-white shadow-md border border-gray-200 p-8 rounded-lg">
                 <h1 className="font-semibold text-lg mb-4">
                   Total Franchisees Onboard
                 </h1>
@@ -162,7 +163,7 @@ const Dashboard = () => {
               </div>
 
               {/* Card 2: Key Insights & Feedback */}
-              <div className="bg-white shadow-md border border-gray-200 p-6 rounded-lg">
+              <div className="animate__animated animate__bounceInDown bg-white shadow-md border border-gray-200 p-6 rounded-lg">
                 <h2 className="font-bold text-lg">Key Insights & Feedback</h2>
                 <div className="flex justify-between items-center mt-6 flex-wrap gap-4">
                   <div>
@@ -185,7 +186,7 @@ const Dashboard = () => {
               </div>
 
               {/* Card 3: Financial Wellbeing */}
-              <div className="bg-white shadow-md border border-gray-200 p-6 rounded-lg">
+              <div className="animate__animated animate__bounceInUp bg-white shadow-md border border-gray-200 p-6 rounded-lg">
                 <p className="text-lg font-semibold">Financial Wellbeing</p>
                 <div className="flex items-center justify-between mt-5">
                   <p className="text-3xl font-bold">
@@ -213,7 +214,7 @@ const Dashboard = () => {
               </div>
 
               {/* Card 4: Prospect Leads */}
-              <div className="bg-white shadow-md border border-gray-200 p-4 rounded-lg">
+              <div className="animate__animated animate__bounceInUp bg-white shadow-md border border-gray-200 p-4 rounded-lg">
                 <h1 className="font-semibold text-lg mb-4">Prospect Leads</h1>
 
                 {/* Lead 1 */}
@@ -282,9 +283,9 @@ const Dashboard = () => {
 
         <div className="flex flex-col md:flex-row bg-gray-50">
           {/* Left Side - Pending Questions */}
-          <div className="w-full md:w-1/3 bg-white border-r p-6">
+          <div className="animate__animated animate__bounceInLeft w-full md:w-1/3 bg-white border-r p-6">
             <div className="flex items-center justify-between mb-6 border-b-1 p-2 ">
-              <h2 className="text-2xl font-semibold ">Pending Questions</h2>
+              <h2 className="text-2xl font-semibold">Pending Questions</h2>
               <span className="bg-blue-400 text-white text-xs px-2 py-1 rounded-lg">
                 02
               </span>
@@ -305,7 +306,7 @@ const Dashboard = () => {
                     <div>
                       <h4 className="font-semibold text-sm">
                         Phoenix Bakers{" "}
-                        <div className="text-gray-500 text-xs"> @phoenix</div>
+                        <span className="text-gray-500 text-xs">@phoenix</span>
                       </h4>
                       <p className="text-sm text-gray-600 mt-1">
                         What are the requirements for opening a new store?
