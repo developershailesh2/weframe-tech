@@ -2,8 +2,6 @@ import React from "react";
 
 import Image from "next/image";
 import { GoGear } from "react-icons/go";
-import { GiEarbuds } from "react-icons/gi";
-import { PiGearSix } from "react-icons/pi";
 import { FaArrowTrendUp, FaCheck } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
 import { IoSendSharp } from "react-icons/io5";
