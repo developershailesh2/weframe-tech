@@ -294,7 +294,7 @@ const Dashboard = () => {
             <div className="mb-6">
               <div className="flex items-start justify-between">
                 <div className="flex gap-3">
-                  <img
+                  <Image
                     src="/images/Avataronline.png"
                     alt="avatar"
                     className="w-10 h-10 rounded-full"
@@ -321,7 +321,7 @@ const Dashboard = () => {
             <div className="mb-6">
               <div className="flex items-start justify-between">
                 <div className="flex gap-3">
-                  <img
+                  <Image
                     src="/images/Avataronline2.png"
                     alt="avatar"
                     className="w-10 h-10 rounded-full"
@@ -344,7 +344,7 @@ const Dashboard = () => {
           {/* Right Side - Chat Area */}
 
           <div className="w-full md:w-2/3 flex flex-col items-center justify-center px-8 py-12 text-center">
-            <img src="/images/Logo.png" alt="logo" className="w-12 mb-6" />
+            <Image src="/images/Logo.png" alt="logo" className="w-12 mb-6" />
             <h1 className="text-3xl font-semibold mb-7">
               Welcome to the AI Chat Assistant
             </h1>
